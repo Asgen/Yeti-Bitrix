@@ -1,0 +1,13 @@
+{
+    "require": {
+        "wikimedia/composer-merge-plugin": "dev-master",
+        "swiftmailer/swiftmailer" : "dev-master"
+    },
+    "extra": {
+        "merge-plugin": {
+            "require": [
+                "../bitrix/composer-bx.json"
+            ]
+        }
+    }
+}
